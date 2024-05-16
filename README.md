@@ -2,6 +2,9 @@
 
 This project allows users to extract comments from YouTube videos, upload PDFs and query their contents, and interact with these data sources using a chatbot-like interface powered by an LLM (Language Model) from LM Studio.
 
+You need to download LM Studio first,then download the ```microsoft/Phi-3-mini-4k-instruct-gguf/Phi-3-mini-4k-instruct-q4.gguf``` Model
+then Start the server of it
+
 ## Features
 
 1. **Fetch YouTube Comments**
@@ -33,7 +36,7 @@ This project allows users to extract comments from YouTube videos, upload PDFs a
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/yourrepository.git
+   git clone https://github.com/Rishurajgautam24/Chatbot-PDF-Youtube_Comments.git
    cd yourrepository
 2. Install dependencies:
    ```pip install streamlit google-api-python-client openai faiss-cpu scikit-learn PyMuPDF fpdf```
